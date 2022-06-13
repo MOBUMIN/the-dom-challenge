@@ -41,7 +41,7 @@ function attachHoverOutEvent() {
 	const starList = document.querySelectorAll('.star-item');
 
 	star.addEventListener("mouseleave", (e) => {
-		if(clickedVal)
+		if(clickedVal !== null)
 			activateStar(starList, clickedVal);
 		else
 			activateStar(starList, -1);
