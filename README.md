@@ -16,6 +16,8 @@ Implement Star Rating Widget using HTML, CSS and JavaScript [View](./star-rating
 
 **Solution 2:** https://jsfiddle.net/devkodeio/dry8mczx/
 
+**My Solution:** https://goor.me/cd4pT
+
 ---
 
 ### Challenge 2:
