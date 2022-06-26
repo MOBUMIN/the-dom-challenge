@@ -4,6 +4,10 @@ Devkode is coming up with a weekly hackathon, **#TheDOMChallenge** <br />
 It's a 60-90 minutes online weekly challenge related to frontend development consisting of
 industrial level machine round questions.
 
+**My Solution:** https://goor.me/cd4pT
+Challenge 1 : 51 min
+Challenge 2 : 36 min 33s
+
 ---
 
 ### Challenge 1:
@@ -15,8 +19,6 @@ Implement Star Rating Widget using HTML, CSS and JavaScript [View](./star-rating
 **Solution 1:** https://jsfiddle.net/devkodeio/2ovtnj8f/
 
 **Solution 2:** https://jsfiddle.net/devkodeio/dry8mczx/
-
-**My Solution:** https://goor.me/cd4pT
 
 ---
 
