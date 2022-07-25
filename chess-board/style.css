@@ -1,0 +1,30 @@
+#grid {
+    border: 4px black solid;
+    border-radius: 4px;
+    width: fit-content;
+}
+
+.row {
+	display: flex;
+}
+
+.square {
+	width: 4rem;
+	height: 4rem;
+}
+
+.square:hover {
+	cursor: pointer;
+}
+
+.black {
+    background: black;
+}
+
+.white {
+    background: white;
+}
+
+.red {
+    background: red;
+}

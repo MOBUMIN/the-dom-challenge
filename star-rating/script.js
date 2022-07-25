@@ -25,11 +25,12 @@ function attachHoverEvent() {
 			activateStar(starList, Number(starEl.id));
 		})
 	});
+    // mouseenter말고 over쓰면 버블링 가능
 }
 
 function activateStar(starList, count) {
 	for(let i=0; i<=count; i++) {
-		starList[i].classList='star-item fa fa-star';
+		starList[i].classList='star-item fa fa-star'; // toggle 있으면 없애고 없으면 생기게하는 이라는 게 있음
 	}
 	for(let i=4; i>count; i--) {
 		starList[i].classList='star-item fa fa-star-o';
@@ -40,7 +41,7 @@ function attachHoverOutEvent() {
 	const star = document.querySelector('#star');
 	const starList = document.querySelectorAll('.star-item');
 
-	star.addEventListener("mouseleave", (e) => {
+	star.addEventListener("mouseleave", () => {
 		if(clickedVal !== null)
 			activateStar(starList, clickedVal);
 		else
