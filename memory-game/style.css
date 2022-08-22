@@ -1,0 +1,56 @@
+.wrapper {
+	width: fit-content;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 1rem;
+}
+
+.between-wrapper {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	font-weight: bold;
+}
+
+#memory-board {
+	height: 4rem;
+	display: flex;
+	background: lightgray;
+
+	pointer-events: none;
+}
+
+.clickable {
+	cursor: pointer;
+	pointer-events: all !important;
+}
+
+.col {
+	border: 2px solid gray;
+	border-right: none;
+	width: 4rem;
+}
+.col:last-child {
+	border-right: 2px solid gray;
+}
+
+.click-answer, .show-answer {
+	background-color: cornflowerblue;
+}
+
+.wrong-answer {
+	background-color: red;
+}
+
+.shake {
+    animation: shake 0.8s infinite;
+    transform: translate3d(0, 0, 0);
+}
+
+@keyframes shake {
+    0% {transform: translateX(0);}
+    10%, 30%, 50%, 70%, 90% {transform: translateX(-8px);}
+    20%, 40%, 60%, 80%,100% {transform: translateX(8px);}
+ }
