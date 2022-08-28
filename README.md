@@ -5,8 +5,18 @@ It's a 60-90 minutes online weekly challenge related to frontend development con
 industrial level machine round questions.
 
 **My Solution:** https://goor.me/cd4pT
-Challenge 1 : 51 min
-Challenge 2 : 36 min 33s
+
+Challenge 1 : 51 min / 60 min
+
+Challenge 2 : 36 min 33s / 60 min
+
+Challenge 3 : 47 min / 60 min
+
+Challenge 4 : 63 min / 90 min
+
+Challenge 5 : 33 min / 90 min
+
+Challenge 6 : 88 min / 90 min
 
 ---
 
